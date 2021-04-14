@@ -9,7 +9,7 @@ const ForecastSummary = (props) => {
       <div className="forecast-summary__date">{date}</div>
       <div className="forecast-summary__icon">{icon}</div>
       <div className="forecast-summary__temperature">
-        {temperature.max}
+        {temperature}
         &deg;C
       </div>
       <div className="forecast-summary__description">{description}</div>
