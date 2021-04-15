@@ -3,7 +3,6 @@ import "../styles/App.css";
 import PropTypes from "prop-types";
 import LocationDetails from "./LocationDetails";
 import ForecastSummaries from "./ForecastSummaries";
-import ForecastSummary from "./ForecastSummary";
 
 const App = (props) => {
   const { forecasts, location } = props;
@@ -11,7 +10,6 @@ const App = (props) => {
     <div className="App">
       <LocationDetails city={location.city} country={location.country} />
       <ForecastSummaries forecasts={forecasts} />
-      <ForecastSummary forecasts={forecasts} />
     </div>
   );
 };

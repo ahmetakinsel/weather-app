@@ -1,10 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import ForecastSummary from "./ForecastSummary";
-import { forecasts } from "../data/forecast.json";
 
 const ForecastSummaries = (props) => {
-  const forecasts = props;
+  const { forecasts } = props;
   return (
     <div className="forecast-summaries">
       {forecasts.map((forecast) => (
