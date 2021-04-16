@@ -1,0 +1,19 @@
+.weather-app {
+    margin: 0 20px;
+}
+
+.forecast-summaries {
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    border: black;
+    display: grid; grid: repeat(2, 1fr) / repeat(2, 1fr);
+    mix-blend-mode: multiply;
+}
+
+.forecast-summary {
+    color: black;
+    display: block;
+    position:sticky;
+    border: black;
+}
