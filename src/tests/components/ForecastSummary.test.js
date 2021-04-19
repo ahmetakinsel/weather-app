@@ -35,7 +35,7 @@ describe("ForecastSummary", () => {
     );
     expect(getByText("1111111")).toHaveClass("forecast-summary__date");
     expect(getByText("Stub description")).toHaveClass("forecast-summary__description");
-    expect(getByText("stubIcon")).toHaveClass("forecast-summary__icon");
+    expect(getByText("stubIcon")).toHaveClass("forecast-icon");
     expect(getByText("22°C")).toHaveClass("forecast-summary__temperature");
   });
 });
