@@ -5,6 +5,6 @@ import { location } from "../data/forecast.json";
 
 test("renders Weather App", () => {
   render(<App location={location} />);
-  const linkElement = screen.getByText(/"Weather App"/i);
+  const linkElement = screen.getByText(/Weather App/i);
   expect(linkElement).toBeInTheDocument();
 });
