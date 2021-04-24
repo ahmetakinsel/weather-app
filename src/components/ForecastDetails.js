@@ -7,10 +7,8 @@ const ForecastDetails = (props) => {
     <div className="forecast-details">
       <div className="forecast-details-date">{forecast.date}</div>
       <div className="humidity">{forecast.humidity}</div>
-      <div className="temperature">{forecast.temperature}</div>
       <div className="min-temperature">{forecast.temperature.min}</div>
       <div className="max-temperature">{forecast.temperature.max}</div>
-      <div className="wind">{forecast.wind}</div>
       <div className="wind-speed">{forecast.wind.speed}</div>
       <div className="wind-direction">{forecast.wind.direction}</div>
     </div>
