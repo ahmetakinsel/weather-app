@@ -21,7 +21,7 @@ describe("ForecastSummary", () => {
         temperature={validProps.temperature}
       />
     );
-    expect(asFragment(ForecastSummary)).toMatchInlineSnapshot();
+    expect(asFragment(ForecastSummary)).toMatchSnapshot();
   });
 
   it("render correct values for props", () => {

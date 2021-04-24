@@ -20,6 +20,6 @@ const ForecastSummaries = (props) => {
   );
 };
 
-ForecastSummaries.propTypes = { forecasts: PropTypes.string.isRequired };
+ForecastSummaries.propTypes = { forecasts: PropTypes.arrayOf.isRequired };
 
 export default ForecastSummaries;
