@@ -2,77 +2,70 @@
   margin: 0 20px;
   padding: 20;
   margin-top: 30;
-  background: linear-gradient(0deg, #ddd, #fff);
 }
 
 .location-details {
- 
   margin-top: 20px;
   margin-right: 60px;
   margin-left: 90px;
   padding: 60px;
-  background-color: rgb(205, 222, 253);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 .forecast-summaries {
-  /*display: flex;
-  justify-content: flex-end;
-  height: 250px;
+  display: flex;
+  justify-content:center;
+  height: 400px;
   font-size: large;
-  border: rgb(146, 60, 60);
+  border: rgb(156, 60, 60);
   display: grid;
-  grid: repeat(2, 1fr) / repeat(2, 1fr);
-  mix-blend-mode: multiply;*/
-  margin-top: 100px;
-  margin-bottom: 100px;
+  /*grid: repeat(2, 1fr) / repeat(2, 1fr);*/
+  mix-blend-mode: multiply;
+  margin-top: 90px;
+  margin-bottom: 90px;
   margin-right: 60px;
   margin-left: 90px;
-  background-color: cadetblue;
 }
 
 .forecast-summary {
   display: flex;
   justify-content: space-around;
-  flex-shrink: 1;
-  height: 250px;
+  flex-shrink: 10;
   height: 80%;
   width: 80%;
-  background-color: darkgray;
-  
+  border-radius: 5px;
 }
 .forecast-details {
-  background-color: rgb(81, 142, 199);
   margin-top: 80px;
   margin-bottom: 60px;
   margin-right: 60px;
   margin-left: 90px;
   display: flex;
-  justify-content: flex-end;
-
+  justify-content: center;
 }
 .Button {
-  border-radius: 8px;
+  border-radius: 10rem;
   border: none;
-  color: black;  
+  color: black;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 15px;
   margin: 12px 6px;
   transform: translateY(4px);
   padding: 5px;
   margin: 8px;
   display: flex;
   justify-content: space-evenly;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .Button:active {
-  background-color: #a7acf1;
-  box-shadow: 0 5px rgb(218, 205, 240);
+  box-shadow: 0 5px rgb(47, 47, 47);
 }
 
-.forecast-summary__date, 
-.forecast-summary__icon, 
-.forecast-summary__description, 
+.forecast-summary__date,
+.forecast-summary__icon,
+.forecast-summary__description,
 .forecast-summary__temperature {
   padding: 5px;
   margin: 5px;
@@ -88,7 +81,7 @@
 .wind-direction {
   margin: 5px;
   padding: 5px;
- 
+
   display: flex;
   justify-content: space-evenly;
 }
