@@ -2,17 +2,22 @@
   margin: 0 20px;
   padding: 20;
   margin-top: 30;
+  background: linear-gradient(0deg, #ddd, #fff);
 }
 
 .forecast-summaries {
-  display: flex;
+  /*display: flex;
   justify-content: flex-end;
   height: 250px;
   font-size: large;
-  border: black;
+  border: rgb(146, 60, 60);
   display: grid;
   grid: repeat(2, 1fr) / repeat(2, 1fr);
-  mix-blend-mode: multiply;
+  mix-blend-mode: multiply;*/
+  margin-top: 80px;
+  margin-bottom: 60px;
+  margin-right: 30px;
+  margin-left: 30px
 }
 
 .forecast-summary {
@@ -22,4 +27,29 @@
   height: 250px;
   height: 80%;
   width: 80%;
+}
+
+.location-details {
+  margin: 50px;
+  margin-top: 20px;
+  margin-right: 400px;
+  padding: 80px;
+  background-color:rgb(205, 222, 253);
+}
+
+.Button {
+  border-radius: 8px;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 12px 6px;
+  cursor: default;
+  transform: translateY(4px);
+
+}
+.Button:active {
+  background-color: #a7acf1;
+  box-shadow: 0 5px rgb(218, 205, 240);;
 }

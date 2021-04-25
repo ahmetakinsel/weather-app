@@ -4,7 +4,7 @@ import ForecastSummary from "./ForecastSummary";
 import "../styles/App.css";
 
 const ForecastSummaries = (props) => {
-  const { forecasts } = props;
+  const { forecasts, onForecastSelect } = props;
   return (
     <div className="forecast-summaries">
       {forecasts.map((forecast) => (
@@ -23,7 +23,7 @@ const ForecastSummaries = (props) => {
 
 ForecastSummaries.propTypes = {
   forecasts: PropTypes.arrayOf.isRequired,
-  onSelect: PropTypes.func.isRequired,
+  onForecastSelect: PropTypes.func.isRequired,
 };
 
 export default ForecastSummaries;
