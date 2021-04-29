@@ -11,22 +11,19 @@
   padding: 60px;
   font-family: "Raleway", sans-serif;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .forecast-summaries {
   display: flex;
-  justify-content:center;
-  height: 400px;
+  justify-content:flex-end;
+  /*height: 400px;*/
   font-size: large;
   border: rgb(156, 60, 60);
-  display: grid;
-  /*grid: repeat(2, 1fr) / repeat(2, 1fr);*/
-  mix-blend-mode: multiply;
-  margin-top: 90px;
+  /*margin-top: 90px;
   margin-bottom: 90px;
   margin-right: 60px;
-  margin-left: 90px;
+  margin-left: 90px;*/
 }
 
 .forecast-summary {
