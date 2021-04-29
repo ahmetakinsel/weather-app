@@ -20,13 +20,13 @@ const App = () => {
   const handleForecastSelect = (date) => {
     setSelectedDate(date);
   };
-  const handleCitySearch = () => {
+  const handleCitySearch = (searchText) => {
     getForecast(setSelectedDate, setForecasts, setLocation);
   };
   return (
     <div className="weather-app">
       <LocationDetails city={location.city} country={location.country} />
-      <SearchForm />
+      <SearchForm getForecast={getForecasts} citySeacrh={handleCitySearch} />
       <ForecastSummaries
         forecasts={forecasts}
         onForecastSelect={handleForecastSelect}
